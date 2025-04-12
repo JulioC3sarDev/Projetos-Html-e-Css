@@ -1,0 +1,68 @@
+@import url(global.css);
+
+#subtitulo-filmes {
+  font-size: 60px;
+  margin: 0;
+  padding: 30px 20px;
+  font-weight: bold;
+  color: var(--cor-texto);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 90px;
+  justify-self: center;
+  max-width: 1700px;
+  margin: 0;
+}
+
+.card-midia {
+  background-color: var(--menu-footer);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-midia:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.container-poster {
+ height: 500px;
+  overflow: hidden;
+}
+
+.poster-midia {
+  width: 500px;
+  object-fit: none;
+}
+
+.info-midia {
+  padding: 10px 5px; 
+  color: var(--cor-texto);
+  display: flex;
+  flex-direction: column;
+  gap: 5px; 
+}
+
+.titulo-midia {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.detalhes-midia {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: var(--cor-texto);
+  opacity: 0.7;
+  margin-top: 0; 
+}
