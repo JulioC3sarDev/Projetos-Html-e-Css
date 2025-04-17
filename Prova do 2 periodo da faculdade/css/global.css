@@ -1,0 +1,13 @@
+:root{
+    --cor-1: #ffffff;
+    --cor-2: #e5d3d3;
+    --cor-3: #501111;
+    --cor-4: #2A0000;
+    --cor-5: #0000;
+}
+
+body{
+    max-width: 1200px;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}

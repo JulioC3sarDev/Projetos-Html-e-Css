@@ -1,0 +1,28 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 70px 30px 0px 30px;
+    gap: 80px;
+    background-color: var(--cor-4);
+    height: 200px;
+}
+
+footer p{
+    color: var(--cor-1);
+    font-size: 23px;
+    padding: 60px 0 0 30px;
+    margin: 0;
+    height: 100px;
+    
+}
+.contato{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contato a {
+    text-decoration: none;
+    color: var(--cor-1);
+    font-size: 30px;
+}

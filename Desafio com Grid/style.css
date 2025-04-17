@@ -1,0 +1,123 @@
+body{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    color: #ab76fa;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 60px;
+}
+#Family{
+    color: #ab76fa;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+.inicial{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+#lobo1{
+    border-radius: 5px;
+    height: 500px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+span{
+    color: #ab76fa;
+    display: inline-block;
+}
+#lobo2{
+    border-radius: 5px;
+    height: 385px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 450px;
+    
+}
+#pp1{
+    grid-row-start: 4;
+}
+
+#pp2{
+    grid-row-start: 4;
+}
+h2{
+    
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    background: linear-gradient(to right, #A64DFF, #C88BFF);
+    border-radius: 5px;
+    padding :45px 150px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.Carac{
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr;
+    gap: 30px;
+}
+br{
+    border-bottom: 1px solid #888;
+}
+ul{
+    background: linear-gradient(to right, #A64DFF, #C88BFF);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    padding:50px ;
+    margin-bottom: 40px;
+    grid-column-start: 1;
+    grid-row-start: 1 ;
+    grid-row-end: 4;
+}
+#p1{
+    grid-column-start:2;
+    grid-column-end: 5;
+
+}
+#p2{
+    grid-column-start:5;
+    grid-column-end:2 ;
+}
+.anuncio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+#lobo3{
+    width: 900px;
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+#anu1{
+    width: 440px;
+    border-radius: 5px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+#anu2{
+    width: 440px;
+    border-radius: 5px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
